@@ -6,10 +6,16 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-
+    uglify: {
+      all: {
+        files: {
+          'grunt_build/js/main.js': ["js/main.js"]
+        }
+      }
+    }
   });
 
   // Default task.
-  grunt.registerTask('default', []);
+  grunt.registerTask('default', ["uglify"]);
 
 };
