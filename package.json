@@ -1,0 +1,19 @@
+{
+  "name": "grunt_gulp",
+  "version": "0.0.0",
+  "description": "grunt an gulp comparison",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mat Brady",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp-util": "~2.2.10",
+    "gulp-uglify": "~0.1.0",
+    "gulp": "~3.3.4",
+    "grunt": "~0.4.2",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}
