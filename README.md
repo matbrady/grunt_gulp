@@ -1,6 +1,9 @@
 # A Grunt Gulp Comparison
 
-Simple file comparison for ugligifying a javascript file.
+Grunt and Gulp file comparison. Tasks include:
+
+- uglify
+- sass
 
 ### Available Tasks
 
