@@ -9,11 +9,12 @@
   "author": "Mat Brady",
   "license": "BSD-2-Clause",
   "devDependencies": {
+    "gulp": "~3.3.4",
     "gulp-util": "~2.2.10",
     "gulp-uglify": "~0.1.0",
-    "gulp": "~3.3.4",
+    "gulp-load-tasks": "~0.1.1",
     "grunt": "~0.4.2",
-    "matchdep": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.7"
+    "grunt-contrib-uglify": "~0.2.7",
+    "matchdep": "~0.3.0"
   }
 }
