@@ -12,9 +12,18 @@ module.exports = function(grunt) {
           'grunt_build/js/main.js': ["js/main.js"]
         }
       }
+    },
+
+    sass: {
+      all: {
+        files: {
+          'grunt_build/scss/main.css': "scss/main.scss"
+        }
+      }
     }
+
   });
 
   // Default task.
-  grunt.registerTask('default', ["uglify"]);
+  grunt.registerTask('default', ["uglify", "sass"]);
 };

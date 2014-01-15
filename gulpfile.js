@@ -4,6 +4,7 @@ var gulpLoadTasks = require("gulp-load-tasks");
 // Load all gulp tasks
 var tasks = gulpLoadTasks();
 
+// TASK: Script
 gulp.task('scripts', function() {
 	return gulp
 		.src([
@@ -13,8 +14,15 @@ gulp.task('scripts', function() {
 		.pipe(gulp.dest('gulp_build/js'));
 });
 
+gulp.task('sass', function() {
+	return gulp
+		.src("scss/*.scss")
+		.pipe(tasks.sass())
+		.pipe(gulp.dest('gulp_build/scss'));
+});
+
 // Default task.
 gulp.task('default', function() {
-	gulp.run('scripts');
+	gulp.run('scripts', "sass");
 });
 
