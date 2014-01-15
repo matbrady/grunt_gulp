@@ -1,15 +1,16 @@
 # A Grunt Gulp Comparison
 
+Super simple Grunt and Gulp file comparison. Tasks include:
+
+- uglify
+- sass
+
 ### Installtion 
 
 Install node modules
 
 	npm install 
 
-Grunt and Gulp file comparison. Tasks include:
-
-- uglify
-- sass
 
 ### Available Tasks
 
