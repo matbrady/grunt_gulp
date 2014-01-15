@@ -1,5 +1,11 @@
 # A Grunt Gulp Comparison
 
+### Installtion 
+
+Install node modules
+
+	npm install 
+
 Grunt and Gulp file comparison. Tasks include:
 
 - uglify
