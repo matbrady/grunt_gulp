@@ -13,7 +13,7 @@ gulp.task('scripts', function() {
 		.pipe(gulp.dest('gulp_build/js'));
 });
 
-	
+// Default task.
 gulp.task('default', function() {
 	gulp.run('scripts');
 });

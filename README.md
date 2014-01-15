@@ -1,7 +1,13 @@
-# A Grunt Gulp comparison
+# A Grunt Gulp Comparison
 
-## Installation 
+Simple file comparison for ugligifying a javascript file.
 
-**Gulp** https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
+### Available Tasks
 
-**Grunt**
+**Grunt Default Task**
+
+	grunt 
+
+**Gulp Default Task**
+
+	gulp

@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   // Load all Grunt tasks declared in the package.json file
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
-  // Project configuration.
+  // Grunt Configuration.
   grunt.initConfig({
     uglify: {
       all: {
@@ -17,5 +17,4 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('default', ["uglify"]);
-
 };
